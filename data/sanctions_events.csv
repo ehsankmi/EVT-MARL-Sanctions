@@ -1,0 +1,22 @@
+date,event,type,severity_1to5,source
+2012-10-09,"Executive Order 13628 — additional US sanctions incl. rial transactions",escalation,3,Iran Primer
+2013-06-03,"Executive Order 13645 — sanctions on rial transactions, auto sector",escalation,3,Iran Primer
+2015-07-14,"JCPOA signed (Vienna)",relief,4,Britannica
+2016-01-16,"JCPOA Implementation Day — nuclear-related sanctions lifted",relief,5,Congress.gov
+2018-05-08,"US withdraws from JCPOA (Trump administration)",escalation,5,Britannica
+2018-08-06,"Executive Order 13846 — reimposition of first tranche of sanctions",escalation,4,Iran Primer
+2018-11-04,"Full reimposition of US sanctions incl. oil exports and SWIFT",escalation,5,Iran Primer
+2019-05-08,"Executive Order 13871 — sanctions on iron, steel, aluminum, copper sectors",escalation,3,Iran Primer
+2019-06-24,"Executive Order 13876 — sanctions targeting Supreme Leader's office",escalation,3,Iran Primer
+2019-09-01,"US sanctions on Central Bank of Iran (financial sector)",escalation,4,Iran Primer
+2020-01-03,"Killing of Qassem Soleimani; regional escalation",escalation,4,Britannica
+2020-08-20,"US attempts to invoke JCPOA snapback mechanism (rejected by UNSC)",escalation,2,Congress.gov
+2021-04-06,"Vienna talks begin on JCPOA revival",relief,2,Britannica
+2022-09-16,"Death of Mahsa Amini; nationwide protests and new sanctions wave",escalation,3,Britannica
+2024-09-01,"Hezbollah leadership degraded; regional allies weakened",escalation,2,Britannica
+2024-12-08,"Fall of Assad government in Syria; loss of regional ally",escalation,3,Britannica
+2025-02-04,"US National Security Presidential Memorandum directs push for snapback prep",escalation,2,Congress.gov
+2025-06-13,"Israel-Iran direct conflict escalation",escalation,5,Britannica
+2025-08-28,"E3 (UK/France/Germany) formally trigger JCPOA snapback mechanism",escalation,4,Consilium
+2025-09-27,"UN sanctions reimposed under snapback",escalation,5,Congress.gov
+2025-09-29,"EU Council formally reimposes restrictive measures",escalation,4,Consilium
