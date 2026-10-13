@@ -75,7 +75,7 @@ EVT-MARL-Sanctions/
 ├── app/
 │   └── main.py                  # Streamlit Interactive Dashboard
 └── requirements.txt
-
+```
 ⚙️ Installation & Usage
 
 1- Clone the repository:
