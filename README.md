@@ -43,7 +43,7 @@ Standard RL maximizes expected cumulative reward. Our risk-aware MARL penalizes 
 
 ```math
 R_{MARL}(s, a_i, a_{-i}) = R(s, a_i) - \lambda_1 \cdot CVaR_\alpha(L_i) - \lambda_2 \cdot CVaR_\alpha(L_{sys})
-,,,
+```
 
 Where L_sys = Σ w_j L_j represents the network-wide aggregate loss.
 Fragility Index
