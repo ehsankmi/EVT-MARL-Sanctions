@@ -43,22 +43,29 @@ Standard RL maximizes expected cumulative reward. Our risk-aware MARL penalizes 
 
 ```math
 R_{MARL}(s, a_i, a_{-i}) = R(s, a_i) - \lambda_1 \cdot CVaR_\alpha(L_i) - \lambda_2 \cdot CVaR_\alpha(L_{sys})
-
-
-Where L_sys = Σ w_j L_j represents the network-wide aggregate loss.
-Fragility Index
-
-We measure the robustness of the multi-agent topology using a fragility index:
-Fragility_i = \frac{\partial^2 L_i}{\partial \theta^2}
-
-(Positive → Fragile | Near zero → Robust | Negative → Antifragile)
 ```
-🚀 Interactive Demo & Simulation
+*Where `L_sys = Σ w_j L_j` represents the network-wide aggregate loss.*
 
-(Screenshot of the Streamlit Dashboard / NetworkX Graph)
+### Fragility Index
+We measure the robustness of the multi-agent topology using a fragility index:
 
-📁 Repository Structure
+```math
+Fragility_i = \frac{\partial^2 L_i}{\partial \theta^2}
+```
+*(Positive → Fragile | Near zero → Robust | Negative → Antifragile)*
 
+---
+
+## 🚀 Interactive Demo & Simulation
+*(Screenshot of the Streamlit Dashboard / NetworkX Graph)*
+
+<!-- وارد سایت گیت‌هاب شوید، دکمه ویرایش را بزنید و عکس را اینجا رها کنید -->
+
+---
+
+## 📁 Repository Structure
+
+```text
 EVT-MARL-Sanctions/
 ├── data/
 │   └── sanctions_events.csv     # 21 key sanctions/political events
@@ -76,46 +83,48 @@ EVT-MARL-Sanctions/
 │   └── main.py                  # Streamlit Interactive Dashboard
 └── requirements.txt
 ```
-⚙️ Installation & Usage
 
-1- Clone the repository:
+---
+
+## ⚙️ Installation & Usage
+
+1. **Clone the repository:**
+```bash
 git clone [https://github.com/ehsankmi/EVT-MARL-Sanctions.git](https://github.com/ehsankmi/EVT-MARL-Sanctions.git)
 cd EVT-MARL-Sanctions
+```
 
-2- Install dependencies:
+2. **Install dependencies:**
+```bash
 pip install -r requirements.txt
+```
 
-3-Run the Notebooks or the Dashboard:
+3. **Run the Notebooks or the Dashboard:**
 To explore the data and models, run the Jupyter notebooks in order. To launch the interactive dashboard:
+```bash
 streamlit run app/main.py
+```
 
-📚 Related Work
+---
 
-    Davar, A., Godin, F., & Garrido, J. (2024). Catastrophic-risk-aware reinforcement learning with extreme-value-theory-based policy gradients. arXiv:2406.15612
+## 📚 Related Work
+- Davar, A., Godin, F., & Garrido, J. (2024). *Catastrophic-risk-aware reinforcement learning with extreme-value-theory-based policy gradients.* arXiv:2406.15612
+- NS et al. (2023). *Extreme Risk Mitigation in Reinforcement Learning using Extreme Value Theory.* arXiv:2308.13011
 
-    NS et al. (2023). Extreme Risk Mitigation in Reinforcement Learning using Extreme Value Theory. arXiv:2308.13011
+---
 
-🚀 Project Status
+## 🚀 Project Status
+- [x] Empirical data collection and EVT analysis
+- [x] Risk-neutral MARL baseline implementation
+- [x] CVaR-penalized MARL (modeling individual + systemic risk)
+- [x] Multi-seed robustness testing (fragility/antifragility analysis)
+- [x] Interactive Network Simulation Dashboard
+- [ ] Working paper (in preparation)
+- [ ] Deep MARL extension (MAPPO architecture)
 
-    [x] Empirical data collection and EVT analysis
+---
 
-    [x] Risk-neutral MARL baseline implementation
-
-    [x] CVaR-penalized MARL (modeling individual + systemic risk)
-
-    [x] Multi-seed robustness testing (fragility/antifragility analysis)
-
-    [x] Interactive Network Simulation Dashboard
-
-    [ ] Working paper (in preparation)
-
-    [ ] Deep MARL extension (MAPPO architecture)
-
-📬 Contact
-
-Ehsan Karimi
-
-Independent Researcher | Ph.D. in IT, MBA
-
+## 📬 Contact
+**Ehsan Karimi**  
+Independent Researcher | Ph.D. in IT, MBA  
 📧 e.karimi@ut.ac.ir | ehsankarimi61@gmail.com
-
