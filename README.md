@@ -43,7 +43,7 @@ Standard RL maximizes expected cumulative reward. Our risk-aware MARL penalizes 
 
 ```math
 R_{MARL}(s, a_i, a_{-i}) = R(s, a_i) - \lambda_1 \cdot CVaR_\alpha(L_i) - \lambda_2 \cdot CVaR_\alpha(L_{sys})
-```
+
 
 Where L_sys = Σ w_j L_j represents the network-wide aggregate loss.
 Fragility Index
@@ -52,7 +52,7 @@ We measure the robustness of the multi-agent topology using a fragility index:
 Fragility_i = \frac{\partial^2 L_i}{\partial \theta^2}
 
 (Positive → Fragile | Near zero → Robust | Negative → Antifragile)
-
+```
 🚀 Interactive Demo & Simulation
 
 (Screenshot of the Streamlit Dashboard / NetworkX Graph)
