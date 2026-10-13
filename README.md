@@ -58,8 +58,6 @@ Fragility_i = \frac{\partial^2 L_i}{\partial \theta^2}
 ## 🚀 Interactive Demo & Simulation
 *(Screenshot of the Streamlit Dashboard / NetworkX Graph)*
 
-<!-- برای قرار دادن عکس، در محیط ویرایشگر گیت‌هاب، عکس خود را از کامپیوتر بگیرید و دقیقاً در همین سطر رها کنید (Drag & Drop). گیت‌هاب خودش آن را به کد تبدیل می‌کند -->
-
 ---
 
 ## 📁 Repository Structure
