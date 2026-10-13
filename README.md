@@ -49,20 +49,16 @@ Fragility Index
 
 We measure the robustness of the multi-agent topology using a fragility index:
 Code snippet
+
 Fragility_i = \frac{\partial^2 L_i}{\partial \theta^2}
 
 (Positive → Fragile | Near zero → Robust | Negative → Antifragile)
+🚀 Interactive Demo & Simulation
 
----
+(Screenshot of the Streamlit Dashboard / NetworkX Graph)
+📁 Repository Structure
+Plaintext
 
-## 🚀 Interactive Demo & Simulation
-*(Screenshot of the Streamlit Dashboard / NetworkX Graph)*
-
----
-
-## 📁 Repository Structure
-
-```text
 EVT-MARL-Sanctions/
 ├── data/
 │   └── sanctions_events.csv     # 21 key sanctions/political events
@@ -80,12 +76,13 @@ EVT-MARL-Sanctions/
 │   └── main.py                  # Streamlit Interactive Dashboard
 └── requirements.txt
 
-## ⚙️ Installation & Usage
+⚙️ Installation & Usage
 
-11. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/ehsankmi/EVT-MARL-Sanctions.git](https://github.com/ehsankmi/EVT-MARL-Sanctions.git)
-   cd EVT-MARL-Sanctions
+    Clone the repository:
+    Bash
+
+    git clone https://github.com/ehsankmi/EVT-MARL-Sanctions.git
+    cd EVT-MARL-Sanctions
 
     Install dependencies:
     Bash
