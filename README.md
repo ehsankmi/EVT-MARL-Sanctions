@@ -44,20 +44,7 @@ Standard RL maximizes expected cumulative reward. Our risk-aware MARL penalizes 
 ```math
 R_{MARL}(s, a_i, a_{-i}) = R(s, a_i) - \lambda_1 \cdot CVaR_\alpha(L_i) - \lambda_2 \cdot CVaR_\alpha(L_{sys})
 
-Where L_sys = Σ w_j L_j represents the network-wide aggregate loss.
-Fragility Index
-
-We measure the robustness of the multi-agent topology using a fragility index:
-Code snippet
-
 Fragility_i = \frac{\partial^2 L_i}{\partial \theta^2}
-
-(Positive → Fragile | Near zero → Robust | Negative → Antifragile)
-🚀 Interactive Demo & Simulation
-
-(Screenshot of the Streamlit Dashboard / NetworkX Graph)
-📁 Repository Structure
-Plaintext
 
 EVT-MARL-Sanctions/
 ├── data/
@@ -76,27 +63,12 @@ EVT-MARL-Sanctions/
 │   └── main.py                  # Streamlit Interactive Dashboard
 └── requirements.txt
 
-⚙️ Installation & Usage
+git clone https://github.com/ehsankmi/EVT-MARL-Sanctions.git
+cd EVT-MARL-Sanctions
 
-    Clone the repository:
-    Bash
+pip install -r requirements.txt
 
-    git clone https://github.com/ehsankmi/EVT-MARL-Sanctions.git
-    cd EVT-MARL-Sanctions
-
-    Install dependencies:
-    Bash
-
-    pip install -r requirements.txt
-
-    Run the Notebooks or the Dashboard:
-
-        To explore the data and models, run the Jupyter notebooks in order.
-
-        To launch the interactive dashboard:
-        Bash
-
-        streamlit run app/main.py
+streamlit run app/main.py
 
 📚 Related Work
 
