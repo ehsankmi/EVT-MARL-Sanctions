@@ -273,7 +273,7 @@ streamlit run app/main.py
 - [x] CVaR-penalized MARL (modeling individual + systemic risk)
 - [x] Multi-seed robustness testing (fragility/antifragility analysis)
 - [x] Interactive Network Simulation Dashboard
-- [ ] Working paper (in preparation)
+- [x] Working paper (in preparation)
 - [ ] Deep MARL extension (MAPPO architecture)
 
 ---
