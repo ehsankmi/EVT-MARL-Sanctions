@@ -7,7 +7,7 @@
 ![Status](https://img.shields.io/badge/Status-Working_Paper_2026-yellow)
 
 > *Working Paper — Ehsan Karimi (2026)*
-
+https://github.com/ehsankmi/EVT-MARL-Sanctions/blob/main/evt_marl_working_paper.pdf
 ---
 
 ## 📌 Overview
