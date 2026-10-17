@@ -1,13 +1,12 @@
 # EVT-MARL: Risk-Averse Multi-Agent Reinforcement Learning via Extreme Value Theory
 *Modeling Firm Decision-Making under Heavy-Tailed Political-Economic Uncertainty*
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+!![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![NetworkX](https://img.shields.io/badge/NetworkX-Graph_Simulation-green)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Interactive_Dashboard-red)
-![Status](https://img.shields.io/badge/Status-Working_Paper_2026-yellow)
+[![Zenodo Preprint](https://img.shields.io/badge/Zenodo-Preprint_PDF-blue)](https://zenodo.org/records/23434066)
 
-> *Working Paper — Ehsan Karimi (2026)*
-https://github.com/ehsankmi/EVT-MARL-Sanctions/blob/main/evt_marl_working_paper.pdf
+> 📄 **Working Paper — Ehsan Karimi (2026):** [Read the Full Preprint on Zenodo](https://zenodo.org/records/23434066)
 ---
 
 ## 📌 Overview
@@ -273,7 +272,7 @@ streamlit run app/main.py
 - [x] CVaR-penalized MARL (modeling individual + systemic risk)
 - [x] Multi-seed robustness testing (fragility/antifragility analysis)
 - [x] Interactive Network Simulation Dashboard
-- [x] Working paper (in preparation)
+- [x] Working paper ([Published on Zenodo](https://zenodo.org/records/23434066))
 - [ ] Deep MARL extension (MAPPO architecture)
 
 ---
